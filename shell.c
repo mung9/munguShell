@@ -28,7 +28,7 @@ void set_cwd(const char* new_cwd){
 void print_shell_input_line(){
 	set_text(TEXT_BOLD);
 	set_text(TEXT_COLOR_YELLOW);
-	printf("%s@HW",user_name);
+	printf("%s",user_name);
 	set_text(TEXT_DEFAULT);
 	printf(":");
 	set_text(TEXT_BOLD);
